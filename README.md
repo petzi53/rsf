@@ -1,7 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-**NOTE: This is work in progress. Just started: About 0% finished**
+**NOTE 1: This is my personal project to learn how to use Shiny for an
+interactive dashboard. I am not affiliated with [Reporters Without
+Borders](https://rsf.org/en) project or website.** **NOTE 2: This is
+work in progress. Just started: About 0% finished**
 
 # rsf
 
