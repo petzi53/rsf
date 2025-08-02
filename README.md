@@ -1,0 +1,49 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+**NOTE: This is work in progress. Just started: About 0% finished**
+
+# rsf
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+The goal of `rsf` is to make it easy to compare the World Press Freedom
+Index as an indicator for the level of freedom enjoyed by journalists
+and media in 180 countries and territories.
+
+> “Press freedom is defined as the ability of journalists as individuals
+> and collectives to select, produce, and disseminate news in the public
+> interest independent of political, economic, legal, and social
+> interference and in the absence of threats to their physical and
+> mental safety.
+
+On the basis of this definition, the press freedom questionnaire and map
+are broken down into five distinct categories or indicators:
+
+- political context,
+- legal framework,
+- economic context,
+- sociocultural context and
+- safety
+
+## Installation
+
+You can install the development version of `rsf` from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("petzi53/rsf")
+```
+
+## Example
+
+This is a basic example which shows you how to start the dashboard:
+
+``` r
+library(rsf)
+
+rsf::run_rsf()
+```
