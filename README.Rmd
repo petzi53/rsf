@@ -30,7 +30,7 @@ On the basis of this definition, the press freedom questionnaire and map are bro
 - political context, 
 - legal framework, 
 - economic context, 
-- sociocultural context and 
+- sociocultural context, and 
 - safety
 
 ## Installation
@@ -46,9 +46,11 @@ pak::pak("petzi53/rsf")
 
 This is a basic example which shows you how to start the dashboard:
 
+**Not yet implemented!**
+
 ```{r example, eval = FALSE}
 library(rsf)
 
-rsf::run_rsf()
+## rsf::run_rsf()
 ```
 

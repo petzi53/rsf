@@ -25,7 +25,7 @@ are broken down into five distinct categories or indicators:
 - political context,
 - legal framework,
 - economic context,
-- sociocultural context and
+- sociocultural context, and
 - safety
 
 ## Installation
@@ -42,8 +42,10 @@ pak::pak("petzi53/rsf")
 
 This is a basic example which shows you how to start the dashboard:
 
+**Not yet implemented!**
+
 ``` r
 library(rsf)
 
-rsf::run_rsf()
+## rsf::run_rsf()
 ```
