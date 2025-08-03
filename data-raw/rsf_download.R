@@ -20,12 +20,30 @@ for (i in 1:length(my_year)) {
     assign(my_name,  rsf_year(my_year[[i]]))
 }
 
+## download unsd-m49 file ############
+url_m49 <- "https://github.com/omnika-datastore/unsd-m49-standard-area-codes/raw/refs/heads/main/2022-09-24__CSV_UNSD_M49.csv"
+
+downloader::download(
+    url = url_m49,
+    destfile = "m49.csv"
+)
+
+
+## create R object ###############
+m49 <-
+    readr::read_delim(
+        file = "m49.csv",
+        delim = ";"
+    )
+
+
+
 
 usethis::use_data(
     rsf2002, rsf2003, rsf2004, rsf2005, rsf2006, rsf2007, rsf2008,
     rsf2009, rsf2010, rsf2012, rsf2013, rsf2014, rsf2015, rsf2016,
     rsf2017, rsf2018, rsf2019, rsf2020, rsf2021, rsf2022, rsf2023,
-    rsf2024, rsf2025, internal = TRUE, compress = "xz"
+    rsf2024, rsf2025, m49, internal = TRUE, compress = "xz"
     )
 
 
